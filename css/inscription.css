@@ -53,10 +53,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background: white;
-  margin: 0;
-}
 
 h1 a {
   text-decoration: none;
