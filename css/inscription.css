@@ -7,6 +7,9 @@ header{
   height: 15%;
 }
 
+*{
+  font-family: arial;
+}
 .block-header{
   background-color: #133046;
   padding: 20px 0;
