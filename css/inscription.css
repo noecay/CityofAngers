@@ -41,8 +41,7 @@ html {
 }
 
 body {
-  background: url(../image/login.jpg);
-
+  background: white;
   margin: 0;
 }
 
@@ -111,6 +110,8 @@ nav li a {
   display: block;
   text-align: center;
   transition: transform 0.5s ease;
+  font-weight: bold;
+  font-size: x-large;
 }
 
 nav li a:hover {
@@ -133,32 +134,31 @@ nav li a:hover::before {
   left: 0;
   opacity: 1;
 }
-
 nav li:nth-of-type(1) {
-  background-color: var(--navColor1);
+  background-image: url(../image/41-11.jpg);
+
 }
 
 nav li:nth-of-type(2) {
-  background-color: var(--navColor2);
+  background-image: url(../image/41-21.jpg);
 }
 
 nav li:nth-of-type(3) {
-  background-color: var(--navColor3);
+  background-image: url(../image/41-31.jpg);
 }
 
 nav li:nth-of-type(4) {
-  background-color: var(--navColor4);
+  background-image: url(../image/41-41.jpg);
 }
 
 nav li:nth-of-type(5) {
-  background-color: var(--navColor5);
+  background-image: url(../image/41-51.jpg);
 }
 
-nav li:nth-of-type(5) {
-  background-color: var(--navColor5);
-}
+
 nav li:nth-of-type(6) {
-  background-color: var(--navColor6);
+  background-image: url(../image/41-61.jpg);
+
 }
 
 /* Slide in animation with delay for each nav item */
@@ -233,7 +233,6 @@ nav li:nth-of-type(6) {
 .menu-bars {
   position: fixed;
   right: 2rem;
-  top: 2rem;
   z-index: 10;
   display: inline;
   cursor: pointer;
@@ -257,7 +256,6 @@ nav li:nth-of-type(6) {
 .change .bar1 {
   transform: rotate(-45deg) translate(-7px, 8px);
 
-
 }
 
 /* Fade out the second bar */
@@ -269,6 +267,7 @@ nav li:nth-of-type(6) {
 .change .bar3 {
   transform: rotate(45deg) translate(-6px, -8px);
 }
+
 
 /* --- Sections ------------------------------------ */
 
