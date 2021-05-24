@@ -26,6 +26,16 @@ header{
   margin-top: :;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../image/login.jpg);
+
+  margin: 0;
+}
+
 :root {
 
   --navColor1: #133046;
