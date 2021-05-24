@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  background: url(../image/login.jpg);
+  background-image: url("../image/login.jpg");
 
   margin: 0;
 }
