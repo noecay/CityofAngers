@@ -291,12 +291,12 @@ nav li:nth-of-type(6) {
   width:auto;
   height:30px;
   margin: 10px 100px;
-  box-shadow: none;
+  
   background-color: #EEE;
-  box-shadow: none;
+  
   padding-left: 40px;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
+  
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -332,7 +332,7 @@ section {
   border: 1px solid #eeeeee;
   perspective: 1000px;
   margin: 3%;
-  box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
 
 }
 .box-inner {
